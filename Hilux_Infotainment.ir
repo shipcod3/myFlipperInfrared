@@ -1,0 +1,29 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Toyota Hilux Conquest 2020 Infotainment System
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 56 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 57 00 00 00
+# 
+name: Ok
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 5A 00 00 00
+#
+name: Back
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 04 00 00 00
+

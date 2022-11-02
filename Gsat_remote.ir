@@ -1,0 +1,32 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: F1 00 00 00
+# 
+name: Ok
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 15 00 00 00
+# 
+name: Vol_down
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: F3 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: F4 00 00 00
+# 
+name: Src
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: F2 00 00 00
